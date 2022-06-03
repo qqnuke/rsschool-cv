@@ -1,0 +1,1 @@
+https://qqnuke.github.io/rsschool-cv/cv
