@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth; 
+    background:  linear-gradient( 109.6deg, rgb(146, 197, 6) 11.2%, rgba(110, 123, 251, 1) 91.1% );
+  }
+
+.nav {
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: bisque;
+    width: 100%;
+    border-bottom: solid black 3px;
+    min-width: 1300px;
+}
+
+ .nav .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 70px;
+    margin: -10px 10px -10px;
+    list-style-type: none;
+ }
+
+ .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 20px;
+    transition: .3s;
+    text-decoration: none;
+  }
+
+.photo-wrapper {
+    border-radius: 50%;
+    border: 8px solid black;
+    box-shadow: 0 0 7px #666; 
+    box-shadow: 0 0 10px purple; 
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    margin-left: 350px; 
+    min-width: 260px;
+    min-height: 260px;
+}
+
+.photo {
+    width: 280px;
+    height: 310px;
+    
+}
+
+.main {
+    height: 100%;
+    padding-top: 77px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.name-section {
+    min-width: 450px;
+
+}
+
+.divider {
+    width: 150px;
+    height: 2px;
+    border-color: rgb(59, 3, 12);
+    background-color: rgb(65, 4, 14);
+}
+
+.footer {
+    background-color: bisque;
+    width: 100%;
+    border-top: solid black 3px;
+    min-width: 1300px;
+}
+
+.rs-ico {
+    box-sizing: border-box;
+    width: 75px;
+    height: 50px;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.divider-2 {
+    width: 1200px;
+    border-color: rgb(59, 3, 12);
+    background-color: rgb(65, 4, 14);
+
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contacts {
+    align-self: flex-start;
+}
+
+ #summary { 
+    align-self: flex-end;
+}
+
+#skills {
+    align-self: flex-start;
+}
+
+#code {
+    align-self: center;
+}
+
+#courses {
+    align-self: flex-start;
+}
+
+#education {
+    align-self: flex-end;
+} 
+
+#english {
+    align-self: flex-start;
+}
+
+.main-content {
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1080px;
+}
+
